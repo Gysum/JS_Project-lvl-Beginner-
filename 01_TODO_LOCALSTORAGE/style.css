@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(rgba(0,0,0,0.8));
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    align-content: center;
+    justify-items: center;
+}
+
+.container {
+    background: linear-gradient(rgba(0,0,0,0.5));
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+#todo-input {
+    height: 30px;
+    width: 150px;
+    border-radius: 8px;
+}
+#add-task-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: blue;
+    border: 3px solid #fff;
+}
+#add-task-btn:hover {
+    background-color: #4b48ba;
+    cursor: pointer;
+}
+h2 {
+    text-align: center;
+}
+li {
+    background-color: rgb(86, 168, 206);
+    display: block;
+    width: fit-content;
+    height: 30px;
+    align-content: center;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+li.completed {
+    background-color: rgb(126, 194, 221);
+}
+#del-btn {
+    color: #fff;
+    background-color: red;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    
+}
+#del-btn:hover {
+    cursor: pointer;
+    background-color: rgb(186, 75, 75);
+}
