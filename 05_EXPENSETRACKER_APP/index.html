@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Expense Tracker</h2>
+        <form id="input-list">
+            <input type="text" id="input-text" placeholder="Expense name">
+            <input type="number" id="input-expense" placeholder="Amount">
+            <button id="add-expense-btn">Add Expense</button>
+        </form>
+        <h2>Expenses</h2>
+        <div id="expense-list">
+            <!--Added dynamically here-->
+            
+        </div>
+        <p>Total : $<span id="total-price">0.00</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
