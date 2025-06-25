@@ -12,9 +12,9 @@ A collection of simple, beginner-friendly JavaScript projects to practice core c
 1] To-Do List App
 2] Weather App
 3] Country Info App
-3] Ecommerce App
-4] Expense Tracker App
-5] Quiz App
+4] Ecommerce App
+5] Expense Tracker App
+6] Quiz App
 
 🌱 Perfect For:
 (i) Beginners learning JavaScript
