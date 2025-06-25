@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country details Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Country details Generator</h2>
+        <div class="input-container">
+            <input type="text" placeholder="Enter name of the country..." id="country-input">
+            <button id="search-btn">Search</button>
+        </div>
+        <div id="country-info" class="hidden">
+            <img id="country-flag">
+            <h2 id="country-name"></h2>
+            <h2 id="country-capital"></h2>
+            <h2 id="country-population"></h2>
+        </div>
+        <div id="error-msg" class="hidden">Could not find such country. Try again!</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
